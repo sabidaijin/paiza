@@ -12,7 +12,6 @@ public class countworkday{
         Integer task = sc.nextInt();
         Integer max=0;
         Integer preend=0;
-        
         Integer current=0;
         // 与えられたタスクの数だけ調査する
         for(int i=0;i<task;i++){
@@ -51,6 +50,7 @@ public class countworkday{
         sc.close();
         System.out.println(max);
         // 最大連続労働日数を出力する
+        
     }
 }
 
