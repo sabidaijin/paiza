@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class hanoipaiza {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -15,6 +15,7 @@ public class Main {
         for(int i=0;i<k;i++){
             kl.add(i);}
         sc.close();
+        
         
         hanoi(n, "A", "B", "C", k, A, B, C,kl);
     }
