@@ -35,7 +35,7 @@ public class countworkday{
                 
                 max=Math.max(max,current);
             }else{
-                // 普通にmaxの値が大きい時
+                // 前回の終わり日時と今回の開始日時が一致しない時、
                 current=end-start+1;
                 max=Math.max(max,current);
                 
@@ -50,7 +50,7 @@ public class countworkday{
         sc.close();
         System.out.println(max);
         // 最大連続労働日数を出力する
-        
+
     }
 }
 
