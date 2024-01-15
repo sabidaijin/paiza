@@ -17,7 +17,7 @@ public class garbera_sort1{
         for(int i=0;i<N*2;i++){
             list.add(sc.nextInt());
         }
-        
+        sc.close();
         Integer count=0;
         Integer index=0;
         while(index<list.size()){
