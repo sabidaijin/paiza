@@ -4,8 +4,7 @@ public class singlelist {
         Node node1=new Node();
         node1.data=1;
         list1.append(node1);
-        list1.show();   
-
+        list1.show();   N
 
     }
     
